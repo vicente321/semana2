@@ -1,0 +1,104 @@
+html, body {
+    margin: 0;
+}
+#imagem_capa{
+    background: url("img/imagem_fundo.png");
+    height: 100%;
+    text-align: center;
+}
+#titulo {
+    color: rgb(255, 231, 231);
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.6;
+    
+}
+#subtitulo {
+    color: rgb(255, 231, 227);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 3px solid white;
+    
+}
+#botao {
+    color: rgb(253, 227, 231);
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+    font-family:Helvetica, sans-serif;
+    font-weight: bold;
+}
+#formacao{
+    padding-left: 10px;
+    background-size: cover;    
+    background-color: rgba(243, 243, 243, 0.795);    
+}
+
+.justificado{
+    text-align:justify;
+}
+
+.centralizado{
+    text-align: center;
+}
+.icone{
+    width: 51px;
+}
+.destaque{
+    padding-left: 10px;
+}
+
+.coluna{
+    float:left;
+    position: relative;
+    padding: 0 5%;  
+}
+.dois{
+    width:40%;
+}
+.quatro{
+    width:15%;
+}   
+.imgeco {
+    width: 60%;
+
+}
+    
+.tres{
+   padding: 0 2%;
+    width: 29%;
+} 
+#lista{
+    float:right;
+}
+#logo{
+width: 20%;
+top: 3px;
+margin-left: 20px;
+position: absolute;
+}
+#lista{
+    margin-right: 20px;
+    list-style: none;
+    margin-top: 0;
+}
+li{
+    float: left;
+    padding: 20 10 20 10;
+    
+
+}
+li:hover{
+    background-color: turquoise;
+}
+header{
+color: white;
+    background-color: black;
+    height: 60px;
+    width:100% ;
+    position: fixed;
+    z-index: 10;
+}
+footer{
+    background-color: turquoise;
+    float: left;
+}
